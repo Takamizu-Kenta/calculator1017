@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="main.css">
+    <title>電卓</title>
+  </head>
+
+  <body>
+    <h3>電卓</h3>
+
+    <!-- ここに記述していきましょう！ -->
+
+    <div class="calulator">
+      <div class="display">0</div>
+      <div class="buttons">
+        <div class="button is-number">7</div>
+        <div class="button is-number">8</div>
+        <div class="button is-number">9</div>
+        <div class="button is-2col is-operator is-add">+</div>
+        <div class="button is-number">4</div>
+        <div class="button is-number">5</div>
+        <div class="button is-number">6</div>
+        <div class="button is-2col is-operator is-division">÷</div>
+        <div class="button is-number">1</div>
+        <div class="button is-number">2</div>
+        <div class="button is-number">3</div>
+        <div class="button is-2col is-operator is-multi">×</div>
+        <div class="button is-number">0</div>
+        <div class="button is-number">00</div>
+        <div class="button is-dot">.</div>
+        <div class="button is-2col is-operator is-sub">-</div>
+        <div class="button is-3col is-equal">=</div>
+        <div class="button is-2col is-ac">AC</div>
+      </div>
+    </div>
+
+  <div id="debug">
+    <span id="leftNumber"></span>
+    <span id="inputOperator"></span>
+    <span id="rightNumber"></span>
+    =
+    <span id="resultNumber"></span>
+  </div>
+<script src="main.js"></script>
+    </body>
+</html>
